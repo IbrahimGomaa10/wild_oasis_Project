@@ -3,13 +3,14 @@ import CabinRow from "../features/cabins/CabinRow";
 import CabinTable from "../features/cabins/CabinTable";
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
+import CabinTableOperation from "./../features/cabins/CabinTableOperation";
 
 function Cabins() {
   return (
     <>
       <Row type="horizontal">
         <Heading as="h1">All cabins</Heading>
-        <p>TEST</p>
+        <CabinTableOperation />
       </Row>
       <Row>
         <CabinTable>
