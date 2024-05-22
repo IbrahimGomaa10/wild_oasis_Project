@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 import { format, isToday } from "date-fns";
 
@@ -40,8 +41,8 @@ function BookingRow({
     created_at,
     startDate,
     endDate,
-    numNights,
-    numGuests,
+    numOfNights,
+    numOfGuests,
     totalPrice,
     status,
     guests: { fullName: guestName, email },
@@ -68,7 +69,7 @@ function BookingRow({
           {isToday(new Date(startDate))
             ? "Today"
             : formatDistanceFromNow(startDate)}{" "}
-          &rarr; {numNights} night stay
+          &rarr; {numOfNights} night stay
         </span>
         <span>
           {format(new Date(startDate), "MMM dd yyyy")} &mdash;{" "}
