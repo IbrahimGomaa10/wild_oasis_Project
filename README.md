@@ -55,15 +55,11 @@ You can access our application using the following demo account:
 
 ### Built with
 
-- React
-- Supabase
-- React Query
-- React Router
-- React Hook Form
-- React Hot Toast
-- Recharts
-- Styled Components
-- Vite
+- *Front-end:* React, React Router, Styled Components, Vite
+- *State Management:* React Query, React Hook Form
+- *Backend:* Supabase
+- *Visualization:* Recharts
+- *Other:* React Hot Toast for notifications
 
 ### What I Learned
 
